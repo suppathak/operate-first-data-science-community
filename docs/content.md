@@ -2,17 +2,24 @@
 
 ## Upcoming 
 
-April 5th, 2022
+April 19th, 2022
 
-**AI4CI - Artificial Intelligence for Continuous Integration**
+**Distributed ML workloads on OpenShift**
 
-* By Aakanksha Duggal, Hema Veeradhi, Karan Chauhan, Michael Clifford, Oindrilla Chatterjee and Shrey Anand
+* By Selbi Nuryyeva
+* As the datasets and models get bigger, the demand for more powerful and efficient GPUs is rapidly increasing. Oftentimes a  single GPU is not adequate for an ML use case. An alternative to upgrading the GPU hardware is to distribute the ML workload either across several GPUs on one node, or across multiple nodes each containing one or several GPUs. The ability for the latter is especially preferred when a single machine can fit only so many GPUs. 
+* In this talk, we will explore how one can distribute a machine learning workflow across several nodes with GPU hardware in a cloud environment. We will use PyTorch to carry out the ML training and Kubeflow, Node Feature Discovery and GPU operators to distribute the ML workload.
+* The attendees will understand how to overcome the GPU hardware limits of a single node training by taking advantage of GPUs on other machines, and therefore, maximizing the utilization of GPUs in an open cloud environment.
+
+## Past Events
+
+April 5th, 2022 - **AI4CI - Artificial Intelligence for Continuous Integration**
+
+* By Aakanksha Duggal, Hema Veeradhi, Karan Chauhan, Oindrilla Chatterjee and Shrey Anand
 * In this session, the speakers introduce AI4CI (Artificial Intelligence for Continuous Integration), a collection of open-source AIOps tools involving open operations data made available by Kubernetes testing and visualization platforms. 
 * The speakers will demonstrate how they developed a set of Jupyter Notebooks which are automated using Kubeflow Pipelines into repeatable processes that collect data from various open CI/CD data platforms, calculate and visualize key performance indicator metrics, build AI/ML services to support operations and create a reproducible workflow around these processes.
 * In this session, attendees learn about a set of AIOps services deployed on Operate First that they can start using and get familiarized with how to use the set of tools available on the Operate First cloud to deploy their own workloads.
-* [Slides](https://github.com/aicoe-aiops/operate-first-data-science-community/blob/main/docs/content/opfmeetup9.pdf)
-
-## Past Events
+* [Slides](https://github.com/aicoe-aiops/operate-first-data-science-community/blob/main/docs/content/opfmeetup9.pdf) and [Video Recording](https://youtu.be/M4thSVYdIT0)
 
 March 22nd, 2022 - **Sandiego**
 
